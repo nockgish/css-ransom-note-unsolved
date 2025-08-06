@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Londrina+Shadow&family=Mansalva&display=swap');
 
 * {
   padding: 0;
@@ -53,19 +54,19 @@ body {
 
 /* Sample CSS for the WHY word */
 
-.whyWLetter {
+.whyWLetter, .becauseALetter {
   font-size: 72px;
   font-weight: bold;
   color: aqua;
   text-decoration: underline;
   text-transform: uppercase;
-  font-family: 'Piazolla', sans-serif;
+  font-family: 'Piazzolla', sans-serif;
 }
 
 .whyHLetter {
   font-size: 30px;
   font-weight: bold;
-  color: darkgoldenrod;
+  color: rgb(220, 161, 12);
   text-decoration: overline;
   text-transform: lowercase;
   font-family: 'Ceviche One', sans-serif;
@@ -82,61 +83,115 @@ body {
 
 /* DID word */
 
-.didDLetter {
+.didDLetter, .theHLetter, .developerDLetter {
+  font-family: 'Barrio', sans-serif;
+  font-size: 4rem;
+  color: tomato;
+  text-shadow: 0 0 20px rgb(195, 255, 0);
 }
 
-.didILetter {
+.didILetter, .gardeningGLetter, .developerETwoLetter {
+  font-family: 'Londrina Shadow', sans-serif;
+  font-size: 4.5rem;
 }
 
 .didDTwoLetter {
+  font-family: 'Mansalva', sans-serif;
+  font-size: 6rem;
+  color: rgb(247, 0, 255);
 }
 
 /* THE word */
 
-.theTLetter {
+.theTLetter, .developerELetter {
+  font-family: 'Raleway Dots';
+  font-size: 6rem;
+  text-shadow: 2px 2px 0 black;
 }
 
-.theHLetter {
-}
 
 .theELetter {
+  font-family: 'Piazzolla', sans-serif;
+  color:aquamarine;
+  font-size: 8rem;
+
 }
 
 /* FRONT-END word */
 
-.frontendFLetter {
+.frontendFLetter, .frontendNLetter {
+    font-family: 'Londrina Shadow', sans-serif;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  color: blue;
 }
 
-.frontendRLetter {
+.frontendNLetter, .gardeningELetter {
+  font-size: 7rem;
+  color: orange;
+  text-shadow: 5px 5px 0 blueviolet;
+  filter: blur(1px);
+}
+
+.frontendRLetter, .developerVLetter, .gardeningNLetter {
+    font-family: 'Barrio', sans-serif;
+    color: rgb(154, 210, 42);
+    font-size: 5rem;
+    text-shadow: 2px 0 2px rgb(163, 52, 52);
+
 }
 
 .frontendOLetter {
+  font-family: 'Piazzolla', serif;
+  font-style: bold;
+  font-size: 8rem;
+  color: ivory;
+  text-decoration: line-through;
 }
 
-.frontendNLetter {
-}
-
-.frontendTLetter {
+/* that crazy T */
+.frontendTLetter, .skillsLLetter, .improvePLetter {
+  font-size: 8rem;
+  font-family:'Times New Roman', Times, serif;
+  color: rgb(11, 69, 11);
+  text-shadow: 20px 0 1px green;
 }
 
 .frontendELetter {
+  font-size: 5rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-family: 'Piazzolla', serif;
+  color: rgb(255, 200, 0);
 }
 
 .frontendNTwoLetter {
+  font-size: 9rem;
+  text-decoration: overline;
+  font-family: 'Mansalva', serif;
+  color: rgb(41, 190, 235);
+  font-style: oblique;
 }
 
 .frontendDLetter {
+  text-transform: uppercase;
+  font-size: 9rem;
+  color: rgb(150, 243, 255);
+  font-family: 'Raleway Dots';
+  font-weight: bold;
+
+}
+
+.developerETwoLetter {
+  color:rgb(255, 198, 122); 
+  font-size: 8.52rem;
 }
 
 /* DEVELOPER word */
 
-.developerDLetter {
-}
-.developerELetter {
-}
-.developerVLetter {
-}
-.developerETwoLetter {
+
+ {
+
 }
 .developerLLetter {
 }
@@ -170,15 +225,39 @@ body {
 /* GARDENING word */
 
 .gardeningGLetter {
+  color: red;
 }
 .gardeningALetter {
+  font-family: 'Barrio', sans-serif;
+  color: blue;
+  font-size: 6rem;
+  filter: blur(1px);
+  text-shadow: 12px 15px 1px green;
 }
 .gardeningRLetter {
+  text-decoration: underline;
+  font-size: 10rem;
+  color: yellow;
+  font-family: 'Mansalva', sans-serif;
+
 }
-.gardeningDLetter {
+.gardeningDLetter, .wantedALetter {
+  font-family: 'Raleway Dots', sans-serif;
+  text-transform: uppercase;
+  color:bisque;
+  font-size: 5rem;
+  text-shadow: -5px 20px 0px rgba(172, 255, 47, 0.314);
+
 }
+
 .gardeningELetter {
+  font-family: 'Mansalva', serif;
+  color: rgb(143, 255, 143);
+  text-shadow: 2px -5px 1px red;
+  text-decoration: line-through;
+  font-weight: bold;
 }
+
 .gardeningNLetter {
 }
 .gardeningILetter {
@@ -196,7 +275,8 @@ body {
 }
 .becauseCLetter {
 }
-.becauseALetter {
+ {
+  
 }
 .becauseULetter {
 }
