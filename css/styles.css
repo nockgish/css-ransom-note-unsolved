@@ -142,7 +142,7 @@ body {
 
 .frontendOLetter, .improveMLetter {
   font-family: 'Piazzolla', serif;
-  font-style: bold;
+  font-weight: bold;
   font-size: 102px;
   color: rgb(240, 240, 146);
   text-decoration: line-through;
